@@ -15,5 +15,5 @@ def reverse_using_collect(string)
   array.collect do |string|
     new_array << string.reverse
   end
-  first_array.join(" ")
+  new_array.join(" ")
 end
