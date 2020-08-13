@@ -12,7 +12,7 @@ def reverse_using_collect(words)
   first_array = words.split(" ")
   new_array = []
   
-  array.collect do |words|
+  first_array.collect do |words|
     new_array << words.reverse
   end
   new_array.join(" ")
