@@ -8,12 +8,12 @@ def reverse_each_word(words)
   return_array.join(" ")
 end
 
-def reverse_using_collect(string)
-  first_array = string.split(" ")
+def reverse_using_collect(words)
+  first_array = words.split(" ")
   new_array = []
   
-  array.collect do |string|
-    new_array << string.reverse
+  array.collect do |words|
+    new_array << words.reverse
   end
   new_array.join(" ")
 end
